@@ -10,7 +10,7 @@
 
   - name: Enabling and restarting service nginx
     ansible.builtin.service:
-      name: mnginx
+      name: nginx
       enabled: yes
       state: started 
 
